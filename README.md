@@ -1,6 +1,4 @@
 # BootStrap
 ## 🎬 Demo
 
-<video width="100%" controls>
-  <source src="https://raw.githubusercontent.com/AhmedSalahM/BootStrap/main/assets/demo.mp4" type="video/mp4">
-</video>
+[Watch Video](https://raw.githubusercontent.com/AhmedSalahM/BootStrap/main/assets/demo.mp4)
