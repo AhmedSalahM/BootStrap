@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+
+.line-container {
+  position: relative;
+  margin: 40px 0;
+}
+
+.line {
+  height: 2px;
+  background: black;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container py-4">
+
+  <div class="row">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="col-12 col-lg-2">
+      <div class="row g-3 text-center">
+
+        <div class="col-12 d-none d-md-block align-self-start">
+          <div class="rounded-circle bg-danger mx-auto" style="width:60px;height:60px;"></div>
+          <p class="small mt-2">Profile</p>
+        </div>
+
+        <div class="col-12 col-md-3 col-lg-12">
+          <div class="rounded-circle bg-primary mx-auto" style="width:60px;height:60px;"></div>
+          <p class="small mt-2">Home</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-12">
+          <div class="rounded-circle bg-success mx-auto" style="width:50px;height:50px;"></div>
+          <p class="small mt-2">Messages</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-12">
+          <div class="rounded-circle bg-warning mx-auto" style="width:50px;height:50px;"></div>
+          <p class="small mt-2">Alerts</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-12">
+          <div class="rounded-circle bg-dark mx-auto" style="width:50px;height:50px;"></div>
+          <p class="small mt-2 ">Settings</p>
+        </div>
+
+      </div>
+    </div>
+
+   
+    <div class="col-12 col-lg-10">
+    <div class="row"><br><br><br></div>
+       
+        <div class="mb-4">
+            <h3>Welcome to the Media Page</h3>
+            <p>
+                This page showcases a simple responsive layout using Bootstrap.
+                You can view videos, features, and content blocks below.
+            </p>
+
+           
+            <div class="row g-3">
+
+                <div class="col-12 col-md-4">
+                    <div class="bg-secondary text-white p-2 text-center">
+                        <img src="1.png" class="img-fluid rounded" alt="Image 1">
+                        <p class="mt-2 mb-0">Image One</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="bg-secondary text-white p-2 text-center">
+                        <img src="1.png" class="img-fluid rounded" alt="Image 2">
+                        <p class="mt-2 mb-0">Image Two</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="bg-secondary text-white p-2 text-center">
+                        <img src="1.png" class="img-fluid rounded" alt="Image 3">
+                        <p class="mt-2 mb-0">Image Three</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FEATURES -->
+        <div class="row text-center mb-4">
+            <div class="col-12 col-md-4">
+                <div class="mb-2 bg-secondary rounded-circle mx-auto" style="width:40px;height:40px;"></div>
+                <p>Ahmed Salah</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mb-2 bg-secondary rounded-circle mx-auto" style="width:40px;height:40px;"></div>
+                <p>Ahmed Salah</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</p>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mb-2 bg-secondary rounded-circle mx-auto" style="width:40px;height:40px;"></div>
+                <p>Ahmed Salah</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</p>
+            </div>
+        </div>
+        <div class="line-container">
+        <div class="line"></div>
+        <div class="triangle"></div>
+        </div>
+        <!-- VIDEO SECTION -->
+        <h4 class="mb-3">Featured Video</h4>
+        <div class="row g-3 align-items-center mb-4">
+
+            <!-- VIDEO -->
+            <div class="col-12 col-md-6 d-none d-md-block">
+                <video class="w-100 rounded" controls>
+                    <source src="frozen.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- TEXT -->
+            <div class="col-12 col-md-6">
+                <h5>About This Video</h5>
+                <p>
+                    This is a sample video section. Replace <strong>frozen.mp4</strong> 
+                    with your own video file. The video is responsive and adapts 
+                    to different screen sizes.
+                </p>
+            </div>
+
+        </div>
+
+        
+        <div class="row g-3">
+            <div class="col-12 col-md-4">
+                <div class="bg-secondary text-white p-3">Contact Us lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="bg-secondary text-white p-3">Contact Us lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="bg-secondary text-white p-3">Contact Us lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatum exercitationem. Velit aspernatur quam quis, nihil adipisci eaque cupiditate sint quo inventore. Voluptate perferendis fugiat consequatur, ad nisi libero nostrum.</div>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
